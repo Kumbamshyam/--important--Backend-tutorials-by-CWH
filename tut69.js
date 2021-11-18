@@ -14,7 +14,7 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'))
 
 app.get('/', (req, res)=>{
-    res.send('You opened home page');
+    res.send('You opened home page with shyam ');
 });
 
 
